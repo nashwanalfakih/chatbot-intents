@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?", "How are you?"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I assist you with?", "Hey! Need any help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later", "Thanks, bye!"],
+      "responses": ["Goodbye! Let me know if you need anything else.", "Thanks for visiting! Have a great day!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "That's helpful", "Thanks a lot"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!", "Glad I could assist!"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my order", "Check order status", "Order not delivered", "Delivery update"],
+      "responses": ["Can you provide your order number?", "I'd be happy to check that. Please share your order ID."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["Cancel my order", "I want to cancel an order", "How can I cancel?", "Stop my order"],
+      "responses": ["Please share your order ID to process the cancellation.", "You can cancel your order within 12 hours of placing it."]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["Return policy", "Can I return my item?", "How do I return?", "I want to return a product"],
+      "responses": ["We accept returns within 30 days of delivery.", "Returned items must be unused and in original packaging."]
+    },
+    {
+      "tag": "refund_status",
+      "patterns": ["Where is my refund?", "Refund not received", "Check refund status", "When will I get my refund?"],
+      "responses": ["Refunds are processed within 5-7 business days after the returned item is received."]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": ["How long does shipping take?", "Shipping duration", "Delivery time", "Estimated delivery date"],
+      "responses": ["Standard shipping takes 3-5 business days.", "Express delivery takes 1-2 days."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["What payment methods do you accept?", "Can I pay with PayPal?", "Credit card accepted?", "How do I pay?"],
+      "responses": ["We accept credit/debit cards, PayPal, and online wallets."]
+    },
+    {
+      "tag": "technical_issue",
+      "patterns": ["Website not working", "Can't login", "App keeps crashing", "Error during checkout"],
+      "responses": ["Sorry to hear that. Please try clearing your cache or contact support.", "We’re looking into the issue. Thank you for your patience."]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": ["Is this product in stock?", "Available now?", "Out of stock?", "When will it be restocked?"],
+      "responses": ["Please check the product page for availability.", "We restock popular items regularly."]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": ["Talk to a human", "Customer support", "Call an agent", "Need help from support"],
+      "responses": ["You can contact our support team at support@example.com or call 123-456-7890."]
+    }
+  ]
+}
